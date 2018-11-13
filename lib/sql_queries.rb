@@ -38,7 +38,7 @@ FROM projects
 INNER JOIN pledges
 ON projects.id=pledges.project_id
 WHERE projects.category='music'
-GROUP BY projects.name
+GROUP BY projects.title
 "
 
 end
